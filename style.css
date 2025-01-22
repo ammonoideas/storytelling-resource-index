@@ -154,6 +154,70 @@ li {
     color: #dcd4c2;
 }
 
+/* DROPDOWN */
+
+button {
+    border: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #dcd4c2;
+    font-weight: bold;
+}
+
+  /* The dropdown container */
+  .dropdown {
+    float: center;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #dcd4c2;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: black;
+    text-shadow: 0 0 3px black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .subject-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #482c2c;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .subject-dropdown a {
+    float: none;
+    color: #dcd4c2;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .subject-dropdown a:hover {
+    color: black;
+    text-shadow: 0 0 3px black;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .subject-dropdown {
+    display: block;
+  } 
+
+/* NAVBAR AGAIN */
 .navlink a {
     color: #dcd4c2;
 }
