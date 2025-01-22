@@ -60,8 +60,8 @@ a {
 }
 
 a:hover {
-    color: black;
-    text-shadow: 0 0 3px black;
+    color: #e2a735;
+    text-shadow: 0 0 3px #e2a735;
 }
 
 img {
@@ -93,7 +93,7 @@ li {
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px black;
+    box-shadow: 0 0 1px #e2a735;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
@@ -183,8 +183,8 @@ button {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    color: black;
-    text-shadow: 0 0 3px black;
+    color: #e2a735;
+    text-shadow: 0 0 3px #e2a735;
   }
   
   /* Dropdown content (hidden by default) */
@@ -208,8 +208,8 @@ button {
   }
   
   .subject-dropdown a:hover {
-    color: black;
-    text-shadow: 0 0 3px black;
+    color: #e2a735;
+    text-shadow: 0 0 3px #e2a735;
   }
   
   /* Show the dropdown menu on hover */
@@ -223,8 +223,8 @@ button {
 }
 
 .navlink a:hover {
-    color: black;
-    text-shadow: 0 0 3px black;
+    color: #e2a735;
+    text-shadow: 0 0 3px #e2a735;
 }
 
 .listbox {
@@ -321,6 +321,6 @@ iframe {
 }
 
 .taglink a:hover {
-    color: black;
-    text-shadow: 0 0 3px black;
+    color: #e2a735;
+    text-shadow: 0 0 3px #e2a735;
 }
