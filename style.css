@@ -69,10 +69,15 @@ img {
     height: auto;
 }
 
+ul {
+    padding: 0 8px;
+}
+
 li {
     list-style-type: '🟆';
     padding-inline-start: 0.5ch;
-    margin: 5px 0px;
+    margin: 5px 0;
+    font-size: 20px;
 }
 
 .line {
@@ -149,14 +154,38 @@ li {
     color: #dcd4c2;
 }
 
+.navlink a {
+    color: #dcd4c2;
+}
+
+.navlink a:hover {
+    color: black;
+    text-shadow: 0 0 3px black;
+}
+
 .listbox {
     display: flex;
     height: 70%;
-    overflow: scroll;
+    overflow: hidden;
     padding: 10px 20px 10px 15px;
     align-items: center;
     font-size: 18px;
     margin: auto;
+}
+
+.listframe {
+    width: 85%;
+    height: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.listframecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    width: 100%;
 }
 
 .list {
@@ -215,11 +244,19 @@ iframe {
 .tagslist {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     text-align: center;
     width: 80%;
     margin: auto;
     padding: 20px 0px;
+}
+
+.taglink a {
+    color: #482c2c;
+}
+
+.taglink a:hover {
+    color: black;
+    text-shadow: 0 0 3px black;
 }
