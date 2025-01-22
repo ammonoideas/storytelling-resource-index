@@ -105,6 +105,7 @@ li {
     width: 55%;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 .navbar {
