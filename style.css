@@ -1,6 +1,7 @@
 body {
-    background-color: #f1ece2;
-    font-family: 'nightingale', Georgia, 'Times New Roman', Times, serif;
+    background-color: #dcd4c2;
+    color: #482c2c;
+    font-family: 'nightingale', Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 
 /* FONTS*/
@@ -55,6 +56,7 @@ p {
 
 a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -96,6 +98,9 @@ li {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* LEFT */
@@ -103,6 +108,7 @@ li {
 .index {
     display: flex;
     width: 55%;
+    height: 100%;
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
@@ -115,6 +121,8 @@ li {
     align-items: center;
     height: 15%;
     overflow: hidden;
+    background-color:#482c2c;
+    color: #dcd4c2;
 }
 
 .list {
@@ -122,6 +130,9 @@ li {
     height: 70%;
     overflow: scroll;
     padding: 10px 10px 10px 15px;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
 }
 
 /* RIGHT */
@@ -136,13 +147,14 @@ li {
 
 .border {
     height: 10%;
+    width: 100%;
 }
 
 /* IFRAME */
 
 .frame {
     width: 80%;
-    height: 70%;
+    height: 60%;
     margin: auto;
     overflow: hidden;
 }
@@ -162,7 +174,6 @@ iframe {
     justify-content: center;
     align-content: center;
     text-align: center;
-    overflow: scroll;
     width: 100%;
 }
 
