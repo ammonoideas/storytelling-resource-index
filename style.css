@@ -60,6 +60,7 @@ a {
 }
 
 a:hover {
+    color: black;
     text-shadow: 0 0 3px black;
 }
 
@@ -72,6 +73,12 @@ li {
     list-style-type: '🟆';
     padding-inline-start: 0.5ch;
     margin: 5px 0px;
+}
+
+.line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #dcd4c2;
 }
 
 /* EFFECTS */
@@ -89,6 +96,21 @@ li {
   }
   .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(100deg);
+    transform: scale(1.1) rotate(100deg);
   }
 
 /* DIVS */
@@ -120,16 +142,29 @@ li {
     justify-content: space-around;
     align-items: center;
     height: 15%;
+    width: 100%;
+    align-items: center;
     overflow: hidden;
     background-color:#482c2c;
     color: #dcd4c2;
 }
 
-.list {
+.listbox {
     display: flex;
     height: 70%;
     overflow: scroll;
-    padding: 10px 10px 10px 15px;
+    padding: 10px 20px 10px 15px;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding: 0;
     align-items: center;
     font-size: 18px;
     margin: auto;
