@@ -32,6 +32,8 @@ h2 {
 
 h3 {
     font-family: 'chilia-rough';
+    font-size: 35px;
+    margin-top: 0;
 }
 
 h4 {
@@ -305,7 +307,7 @@ button {
     align-items: center;
     height: 20vh;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     position: absolute;
 }
